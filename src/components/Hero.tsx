@@ -43,13 +43,15 @@ export const Hero = () => {
                 >
                   Buy this Domain
                 </motion.button>
-                <motion.button 
-                  className="border-2 border-navy py-3 px-6 rounded-md font-semibold"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  Browse Fails
-                </motion.button>
+                <Link to="/blog">
+                  <motion.button 
+                    className="border-2 border-navy py-3 px-6 rounded-md font-semibold"
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    Read Blog
+                  </motion.button>
+                </Link>
               </div>
             </motion.div>
           </div>
