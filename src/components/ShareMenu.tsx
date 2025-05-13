@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Check, Copy, Facebook, Link2, Linkedin, Mail, Share2, Twitter } from 'lucide-react';
+import { Check, Copy, Facebook, Linkedin, Mail, Share2, Twitter } from 'lucide-react';
 
 interface ShareMenuProps {
   url: string;
